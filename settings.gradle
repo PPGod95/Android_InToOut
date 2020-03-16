@@ -1,0 +1,2 @@
+include ':Second', ':third'
+rootProject.name='InToOut'

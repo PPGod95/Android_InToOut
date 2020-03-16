@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.second">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.second.CalculatorActivity"></activity>
+        <activity android:name="com.example.second.NineActivity" />
+        <activity android:name="com.example.second.ShapeActivity" />
+        <activity android:name="com.example.second.StateActivity" />
+        <activity android:name="com.example.second.IconActivity" />
+        <activity android:name="com.example.second.CaptureActivity" />
+        <activity android:name="com.example.second.ScaleActivity" />
+        <activity android:name="com.example.second.ClickActivity" />
+        <activity android:name="com.example.second.BbsActivity" />
+        <activity android:name="com.example.second.MarqueeActivity" />
+        <activity android:name="com.example.second.ScrollActivity" />
+        <activity android:name="com.example.second.GravityActivity" />
+        <activity android:name="com.example.second.MarginActivity" />
+        <activity android:name="com.example.second.ScreenActivity" />
+        <activity android:name="com.example.second.ColorActivity" />
+        <activity android:name="com.example.second.PxActivity" />
+        <activity android:name="com.example.second.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
